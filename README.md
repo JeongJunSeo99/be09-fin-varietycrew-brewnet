@@ -100,6 +100,8 @@
 
 
 ## 시스템 아키텍처
+![image](https://github.com/user-attachments/assets/e0109e8b-72fa-4ca0-b86e-e9cf59220d6a)
+
 
 ## WBS
 <img width="1284" alt="wbs" src="https://github.com/user-attachments/assets/f5764ab2-6c93-4f61-a98c-43128c7d6952">
