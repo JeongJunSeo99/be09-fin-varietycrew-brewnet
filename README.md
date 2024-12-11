@@ -1,4 +1,9 @@
 # Brew Net: 프랜차이즈 주문 관리 시스템
+(브루넷 이미지)
+(브루넷 한줄 소개 및 주요기능 3~4줄로 설명)
+
+<br>
+
 > Brew Net(브루넷)은 프랜차이즈 기업들이 사용할 수 있는 주문관리 시스템(OMS)입니다.<br>
 > 본 시스템은 가맹점의 주문을 신속하게 처리하고, 재고 및 물류 관리를 최적화하여 전체적인 운영 효율성을 높이는 것을 목표로 합니다.<br>
 
@@ -14,7 +19,85 @@
 > 특징 4. 전자결재 시스템 도입<br>
 > ➡️ 가맹점의 주문 승인 및 결재 과정을 전자결재로 처리하여, 종이 문서의 사용을 줄이고 효율성을 높였습니다. 이로 인해 결재 절차가 신속해지고, 문서 관리에 소요되는 시간을 최소화할 수 있습니다.<br>
 
-## 요구사항 정의서
+## 팀원
+|노다민(깃헙링크)|양현진(깃헙링크)|용길한(깃헙링크)|장호정(깃헙링크)|정준서(깃헙링크)|
+|:--:|:--:|:--:|:--:|:--:|
+|이미지|이미지|이미지|이미지|이미지|
+|역할|역할|역할|역할|역할|
+<br>
+
+
+
+## 주요 프로세스
+[🔗 주요 프로세스 자세히 보기](위키 url)
+
+### 발주
+### 주문
+### 교환/반품
+
+
+
+
+
+## 프로젝트 기획
+### 요구사항 정의서
+[🔗 바로가기](위키 url)
+
+### WBS
+[🔗 바로가기](위키 url)
+
+### DDD(Domain Driven Design)
+[🔗 바로가기](위키 url)
+
+### ERD
+[🔗 바로가기](위키 url)
+
+### 화면설계서
+[🔗 바로가기](위키 url)
+
+
+## 프로젝트 개발
+[🔗 바로가기](위키 url)
+
+#### Front-end
+|JS|Vue & Vite|PrimeVue|Fetch API|
+|:--:|:--:|:--:|:--:|
+|<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">|<img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"><img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">|<img src="https://img.shields.io/badge/primevue-41B883?style=for-the-badge&logo=primevue&logoColor=white">|API 통신|
+
+#### Back-end
+|Java & Spring Boot|Spring Data JPA|Spring Security & JWT|MariaDB|Redis|SMTP|SWAGGER|GRADLE|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">|<img src="https://img.shields.io/badge/springdatajpa-6DB33F?style=for-the-badge&logo=spring&logoColor=white">| <img src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/jsonwebtokens-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">| <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">| <img src="https://img.shields.io/badge/redis-FF4438?style=for-the-badge&logo=redis&logoColor=white">| in 이메일 인증 | <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white"> | <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> |
+
+#### CI/CD
+|Docker|K8S|Jenkins|Ngrok|Terraform|Ingress|Nginx|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> | <img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"> | <img src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"> | <img src="https://img.shields.io/badge/ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white"> | <img src="https://img.shields.io/badge/terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white"> | <img src="https://img.shields.io/badge/ingress-783CBD?style=for-the-badge&logo=ingress&logoColor=white"> | <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> |
+
+<br>
+
+#### 개발 도구
+|VSCode|IntelliJ|Figma|Slack|GitHub|
+|:--:|:--:|:--:|:--:|:--:|
+|<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"> | <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"> | <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> | <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> | <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">|
+
+## 결과물
+[🔗 바로가기](위키 url)
+
+## 프로젝트 회고
+| 팀원 | COMMENT |
+| :---: | :--- |
+|노다민| (회고 내용) |
+|양현진| (회고 내용) |
+|용길한| (회고 내용) |
+|장호정| (회고 내용) |
+|정준서| (회고 내용) |
+
+
+
+
+
+
 <details>
 <summary>회원</summary>
 
@@ -100,13 +183,19 @@
 
 
 ## 시스템 아키텍처
+[🔗 바로가기](위키 url)
+
 ![image](https://github.com/user-attachments/assets/e0109e8b-72fa-4ca0-b86e-e9cf59220d6a)
 
 
 ## WBS
+[🔗 바로가기](위키 url)
+
 <img width="1284" alt="wbs" src="https://github.com/user-attachments/assets/f5764ab2-6c93-4f61-a98c-43128c7d6952">
 
 ## DDD(Domain Driven Design)
+[🔗 바로가기](위키 url)
+
 <details>
 <summary>Bounded Context</summary>
 
@@ -117,6 +206,8 @@
 </details>
 
 ## ERD
+[🔗 바로가기](위키 url)
+
 <details>
 <summary>논리 모델링</summary>
   
@@ -130,6 +221,8 @@
 </details>
 
 ## 화면설계서
+[🔗 바로가기](위키 url)
+
 <details>
 <summary>피그마(Figma)</summary>
 
